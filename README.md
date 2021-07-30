@@ -1,19 +1,4 @@
 ## Proyecto Final de la Tecnicatura en Desarrollo y Calidad de Software
 
-# Realizado por
+In this project I worked as an end-to-end developer with ECMAScript 6, Reactjs and Nodejs
 
-Gonzalo Alvarez Campos,
-Lourdes Delgado Vitalone,
-Agustín Fogliatto,
-Lucas Gali,
-Ignacio Granero,
-Rodrigo Rivadeneira,
-Jacqueline Zelaya,
-
-## This is the front end folder, with will hold the server side project created with nodejs.
-
-# Installation
-
-```bash
-npm install
-```
