@@ -1,0 +1,41 @@
+{
+  "name": "apparcar-backend",
+  "version": "1.0.0",
+  "description": "Gonzalo Alvarez Campos,\r Lourdes Delgado Vitalone,\r Agustín Fogliatto,\r Lucas Gali,\r Ignacio Granero,\r Rodrigo Rivadeneira,\r Jacqueline Zelaya,",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "coverage": "nyc --reporter=cobertura --reporter=text npm run test",
+    "test": "mocha apitest/**/*.test.js",
+    "postman": "newman run ./postman/apparcar-backend.postman_collection.json -e ./postman/local.json",
+    "apitest": "mocha --watch apitest/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gonzaloralvarezcampos/apparcar-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gonzaloralvarezcampos/apparcar-backend/issues"
+  },
+  "homepage": "https://gitlab.com/gonzaloralvarezcampos/apparcar-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^5.12.5",
+    "newman": "^5.2.2",
+    "nodemon": "^2.0.7",
+    "nyc": "^15.1.0",
+    "supertest": "^6.1.3"
+  }
+}

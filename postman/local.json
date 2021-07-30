@@ -1,0 +1,14 @@
+{
+	"id": "70990ec9-1e9c-4c94-bc00-b3edda9fe789",
+	"name": "AppArCar_Local",
+	"values": [
+		{
+			"key": "baseURL",
+			"value": "http://localhost:5000",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-04-13T23:51:35.924Z",
+	"_postman_exported_using": "Postman/7.36.5"
+}

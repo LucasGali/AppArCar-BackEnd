@@ -1,0 +1,14 @@
+image: node:latest
+
+stages:
+  - test
+
+api_tests:
+  stage: test
+  script:
+    - echo $MONGODB_URI
+    - npm install
+    - npm run coverage
+  artifacts:
+    reports:
+      cobertura: coverage/cobertura-coverage.xml
